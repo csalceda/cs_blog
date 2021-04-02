@@ -1,0 +1,278 @@
+/*
+    Created by: Chariz Salceda
+    Date: Feb. 28, 2021 10:00PM
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;800&family=Work+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    margin: 0;
+    /* background: url(../img/1.jpg) no-repeat center center fixed;
+    background-size: cover; */
+    font: 16px/1.5 Monserrat;
+    color: #2d3142;
+}
+
+p {
+    font: bold 15px Work Sans;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/* Colors */
+.red {
+    color: #d00000;
+}
+.yellow {
+    color: #ffa733;
+}
+.white {
+    color: #ffffff;
+}
+
+/* Shapes */
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(243, 234, 115, 0.8);
+    border-radius: 50%;
+}
+
+/* Custom Text */
+.vertical-p {
+    writing-mode: vertical-rl;
+}
+
+/* Headings */
+.heading-24 {
+    font: normal 24px/1.33 Playfair Display;
+}
+
+.heading-20 {
+    font: normal 20px/1.2 Playfair Display;
+}
+
+.heading-16 {
+    font: normal 16px/1.5 Playfair Display;
+}
+.section-heading-24 {
+    font: normal 24px/1.33 Zilla Slab;
+}
+.section-heading-20 {
+    font: normal 20px/1.2 Zilla Slab;
+}
+.section-heading-16 {
+    font: normal 16px/1.5 Zilla Slab;
+}
+.greetings-heading-89 {
+    font: bold 89px Work Sans;
+    letter-spacing: -5px;
+}
+.greetings-heading-72 {
+    font: normal 72px Work Sans;
+    letter-spacing: -5px;
+}
+.greetings-subheading {
+    font: normal 72px Raleway;
+    /* letter-spacing: -5px; */
+}
+
+/* Paddings */
+.pt-120 {
+    padding-top: 120px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-120 {
+    padding-bottom: 120px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+/* Margins */
+.mt-120 {
+    margin-top: 120;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-120 {
+    margin-bottom: 120;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* Positions */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+}
+/* Blocks */
+.block {
+    z-index: 10;
+    position: relative;
+}
+
+/* Custom Cards */
+.custom-card {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 0;
+}
+.icon-heading {
+    font-size: 32px;
+}
+
+/*
+* Section: Navigation
+*/
+
+#navigation {
+    padding: 14px 0px;
+    /* background-color: #000000; */
+}
+#navigation .logo {
+    padding-top: 25px;
+}
+#navigation .logo a {
+    text-decoration: none;
+    color: #000000;
+}
+.dash {
+    margin-left: 15px;
+    font: normal 20px Montserrat;
+}
+
+#navigation ul.links li,
+#navigation ul.links li a {
+    display: inline-block;
+    font: normal 13px Raleway;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#navigation .float-left li.list-inline-item {
+    position: relative;
+    top: 0;
+    float: left;
+}
+#navigation .float-right li.list-inline-item {
+    float: right;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+/*
+*   FIRST SECTION: Intro
+*/
+
+#intro .left-column {
+    float: left;
+    width: 50%;
+}
+#intro .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#intro .right-column .greetings-heading-89 {
+    padding: 100px 0 0 0;
+}
+#intro .right-column .greetings-subheading {
+    margin-top: -38px;
+    margin-left: 5px;
+}
+#intro .right-column .description {
+    margin-left: 6px;
+    margin-top: -5px;
+}
+#intro .right-column ul {
+    margin-left: -25px;
+}
+#intro .right-column ul.socials a {
+    color: #000000;
+    margin: 30px -10px 0 10px;
+    /* border: 2px solid black; */
+}
+
+/*
+*   SECOND SECTION: Hobbies
+*/
+
+#hobbies {
+    background-color: #000000;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hobbies .left-column .description {
+    letter-spacing: 3px;
+    margin-top: -25px;
+    padding-left: 20px;
+}
+#hobbies .right-column .cards {
+    margin-left: -150px;
+}
+#hobbies .right-column .card-body .card-text {
+    vertical-align: text-bottom;
+    margin-top: auto;
+}
