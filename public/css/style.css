@@ -276,3 +276,44 @@ p {
     vertical-align: text-bottom;
     margin-top: auto;
 }
+
+
+/* THIRD SECTION: Works  */
+#works .right-column {
+    margin-left: auto;
+    margin-right: auto;
+}
+#works .right-column .greetings-heading-89 {
+    padding: 100px 0 0 0;
+}
+#works .right-column .greetings-subheading {
+    margin-top: -38px;
+    margin-left: 5px;
+}
+#works .right-column .description {
+    margin-left: 6px;
+    margin-top: -5px;
+}
+#works .right-column ul {
+    margin-left: -25px;
+}
+#works .right-column ul.socials a {
+    color: #000000;
+    margin: 30px -10px 0 10px;
+    /* border: 2px solid black; */
+}
+
+/* Carousel */
+
+#works .left-column {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.left-column .carousel-inner img {
+    width: 400px;
+    height: auto;
+}
+
+.left-column .slide {
+    width: 400px;
+}
