@@ -12,7 +12,7 @@
                 <div class="clearfix">
                     <div class="float-left">
                         <ul class="list-inline links">
-                            <li class="list-inline-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="list-inline-item"><a class="nav-link font-weight-bolder" href="#">Home</a></li>
                             <li class="list-inline-item"><a class="nav-link" href="#">About</a></li>
                             <li class="list-inline-item"><a class="nav-link" href="#">Personal Projects</a></li>
                         </ul>
@@ -20,8 +20,8 @@
                     <div class="float-right">
                         <ul class="list-inline links">
                             <li class="list-inline-item"><a class="nav-link" href="{{URL::to('/')}}/file/resume.pdf" target="_blank">Download CV</a></li>
-                            <li class="list-inline-item"><a class="nav-link" href="#"><i class="icon-mail"></i></a></li>
-                            <li class="list-inline-item"><a class="nav-link" href="#"><i class="icon-phone"></i></a></li>
+                            <li class="list-inline-item"><a class="nav-link" href="mailto:charizsalceda@gmail.com"><i class="icon-mail"></i></a></li>
+                            <li class="list-inline-item"><a class="nav-link" href="tel:+639457193678"><i class="icon-phone"></i></a></li>
                             {{-- <li class="list-inline-item"><a class="nav-link" href="#"><i class="icon-facebook"></i></a></li> --}}
                         </ul>
                     </div>
