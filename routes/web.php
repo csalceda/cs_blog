@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CSPortfolio\IndexController;
+use App\Http\Controllers\CSPortfolio\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,6 @@ use App\Http\Controllers\CSPortfolio\IndexController;
 // });
 
 Route::get('/', [IndexController::class, 'index']);
+
+// About
+Route::get('/about', [AboutController::class, 'index']);
