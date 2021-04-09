@@ -21,16 +21,21 @@
         <main id="body">
             @include('include.socials')
             @yield('content')
+
+            <a class="go-home bottom-right" onclick="topFunction()" id="myBtn" title="Go to top">
+                <i class="icon-up-open"></i>
+            </a>
         </main>
     </div>
 
-    {{-- @include('include.footer') --}}
+    @include('include.footer')
     
     {{-- Scripts --}}
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/scroll.js') }}"></script>
 
-    @stack('addscripts')
-    
+
+    {{-- @stack('addscripts') --}}
 </body>
 </html>

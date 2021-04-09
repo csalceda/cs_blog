@@ -4,7 +4,7 @@
             <div class="col-auto">
                 <div class="logo">
                     <a href="#">
-                        <h1 class="heading-20">cs.tudio <span class="dash">———————————</span></h1>
+                        cs.tudio <span class="dash">———————————</span>
                     </a>
                 </div>
             </div>
@@ -12,9 +12,9 @@
                 <div class="clearfix">
                     <div class="float-left">
                         <ul class="list-inline links">
-                            <li class="list-inline-item"><a class="nav-link font-weight-bolder" href="#">Home</a></li>
-                            <li class="list-inline-item"><a class="nav-link" href="#">About</a></li>
-                            <li class="list-inline-item"><a class="nav-link" href="#">Personal Projects</a></li>
+                            <li class="list-inline-item"><a class="nav-link font-weight-bolder" href="#intro">Home</a></li>
+                            <li class="list-inline-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="list-inline-item"><a class="nav-link" href="#works">Personal Projects</a></li>
                         </ul>
                     </div>
                     <div class="float-right">

@@ -6,9 +6,9 @@
     @include('CSPortfolio.home.sections.intro')
 
     {{-- quote --}}
-    {{-- @include('CSPortfolio.home.sections.hobbies') --}}
+    @include('CSPortfolio.home.sections.about')
 
     {{-- quote --}}
-    {{-- @include('CSPortfolio.home.sections.works') --}}
+    @include('CSPortfolio.home.sections.works')
 
 @endsection
