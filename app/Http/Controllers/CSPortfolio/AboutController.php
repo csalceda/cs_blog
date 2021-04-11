@@ -14,7 +14,7 @@ class AboutController extends Controller
      */
     public function index()
     {
-        dd('About Page!');
+        return view('CSPortfolio.about.index');
     }
 
     /**
