@@ -6,6 +6,7 @@
                 <h2 class="greetings-heading-89 pt-120 yellow">chariz <span class="outline">salceda.</span></h2>
                 <h3 class="greetings-heading-89 faded text-muted">WEB DEVELOPER</h2>
                 <h3 class="greetings-heading-89 text-muted">BASED IN PASIG, PH</h2>
+                <h2 class="greetings-subheading-38 pt-50 text-transform-uppercase white">Let's collaborate <i class="icon-right-small"></i></h2>
                 {{-- <span><img src="{{ asset('img/1.png') }}" alt="illustration" width="400" height="auto"></span> --}}
                 {{-- <a href="#about" class="text-white">More about me</a> --}}
             </div>
