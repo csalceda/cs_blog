@@ -167,6 +167,36 @@
       "css": "github-circled",
       "code": 61595,
       "src": "fontawesome"
+    },
+    {
+      "uid": "877a233d7fdca8a1d82615b96ed0d7a2",
+      "css": "right-small",
+      "code": 59409,
+      "src": "typicons"
+    },
+    {
+      "uid": "4oaz56fmzfvx7vry2o540n9l4z79fz8t",
+      "css": "right-1",
+      "code": 59410,
+      "src": "typicons"
+    },
+    {
+      "uid": "7686897ce7ec808ff19aec948b5aaf43",
+      "css": "right-2",
+      "code": 59411,
+      "src": "iconic"
+    },
+    {
+      "uid": "in76hg99crrkpcbz2rjnmgbiw74s72y0",
+      "css": "ok",
+      "code": 59412,
+      "src": "modernpics"
+    },
+    {
+      "uid": "rrhco7mfj6ro9yzhe4a1rbln9flw47re",
+      "css": "cancel",
+      "code": 59413,
+      "src": "modernpics"
     }
   ]
 }
