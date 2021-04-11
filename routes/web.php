@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CSPortfolio\IndexController;
 use App\Http\Controllers\CSPortfolio\AboutController;
+use App\Http\Controllers\CSPortfolio\ProjectsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +23,7 @@ use App\Http\Controllers\CSPortfolio\AboutController;
 Route::get('/', [IndexController::class, 'index']);
 
 // About
-Route::get('/about', [AboutController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+// Projects
+Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
